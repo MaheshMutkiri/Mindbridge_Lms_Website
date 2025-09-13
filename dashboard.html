@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- navbar -->
+<header>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+   <a class="navbar-brand" href="#">  <img src="assets/icons/idea.png">MindBridge</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Courses">Courses</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#features">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Announcements">Announcements</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Profile">Profile</a>
+        </li>
+      </ul>
+        <button type="button" class="btn btn-danger me-3" id="logoutBtn" onclick="logoutt()">LogOut</button>
+      
+    </div>
+  </div>
+</nav>
+</header>
+<!--home page starts -->
+<section class="hero-section">
+        <div class="container text-center">
+            <h1 class="display-4 fw-bold mb-4">Advance Your Learning Journey</h1>
+            <p class="lead mb-4"><b>MindBridge</b> provides the best platform for online learning with expert instructors and cutting-edge courses.</p>
+            <p class="lead mb-4">Welcome to Mini LMS – your personalized learning space. Access your courses, manage assignments, stay updated with announcements, and track your progress, all in one simple dashboard</p>
+
+        </div>
+    </section>
+
+     <section id="courses" class="container mb-5">
+        <h2 class="text-center mb-4 " id="Courses"> Courses</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4" data-aos="fade-right">
+                <div class="card course-card">
+                    <center><img src="assets/icons/app-development.png" class="card-img-top" alt="Web Development"></center>
+                    <div class="card-body">
+                        <h5 class="card-title">Web Development</h5>
+                        <p class="card-text">Learn HTML, CSS, JavaScript and modern frameworks to build responsive websites.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="badge bg-danger">12 Weeks</span>
+                            <span class="text-primary fw-bold">$49.99</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4"data-aos="fade-up">
+                <div class="card course-card">
+                  <center> <img src="assets/icons/data-science.png" class="card-img-top" alt="Data Science"></center> 
+                    <div class="card-body">
+                        <h5 class="card-title">Data Science</h5>
+                        <p class="card-text">Master data analysis, visualization, databases and machine learning techniques.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="badge bg-danger">16 Weeks</span>
+                            <span class="text-primary fw-bold">$59.99</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4"data-aos="fade-left">
+                <div class="card course-card">
+                  <center>  <img src="assets/icons/design.png" class="card-img-top" alt="Graphic Design"></center>
+                    <div class="card-body">
+                        <h5 class="card-title">Graphic Design</h5>
+                        <p class="card-text">Learn design principles, structural designing , typography, and industry-standard tools.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="badge bg-danger">10 Weeks</span>
+                            <span class="text-primary fw-bold">$44.99</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="col-md-4 mb-4"data-aos="fade-right">
+                <div class="card course-card">
+                    <center><img src="assets/icons/cooperation.png" class="card-img-top" alt="Web Development"></center>
+                    <div class="card-body">
+                        <h5 class="card-title">Business & Productivity</h5>
+                        <p class="card-text">Business & Productivity courses help you improve communication, master essential tools.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="badge bg-danger">12 Weeks</span>
+                            <span class="text-primary fw-bold">$49.99</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="col-md-4 mb-4"data-aos="fade-up">
+                <div class="card course-card">
+                    <center><img src="assets/icons/evolve.png" class="card-img-top" alt="Web Development"></center>
+                    <div class="card-body">
+                        <h5 class="card-title">Academic & Per. Growth</h5>
+                        <p class="card-text">Academic & Personal Growth courses strengthen core subjects, improve study skills.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="badge bg-danger">12 Weeks</span>
+                            <span class="text-primary fw-bold">$49.99</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="col-md-4 mb-4"data-aos="fade-left">
+                <div class="card course-card">
+                    <center><img src="assets/icons/ui-design.png" class="card-img-top" alt="Web Development"></center>
+                    <div class="card-body">
+                        <h5 class="card-title">UI/UX Fundamentals</h5>
+                        <p class="card-text">UI/UX  courses teach the basics of design and user experience, helps to create simple products.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="badge bg-danger">12 Weeks</span>
+                            <span class="text-primary fw-bold">$49.99</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Features Section -->
+    <section id="features" class="py-5"data-aos="flip-up">
+        <div class="container">
+            <h2 class="text-center mb-5">Why Choose MindBridge?</h2>
+            <div class="row">
+                <div class="col-md-4 text-center mb-4 Feature">
+                    <div class="feature-icon">
+                        <img src="assets/icons/management.png">
+                    </div>
+                    <h4>Expert Instructors</h4>
+                    <p>Learn from industry professionals with years of experience in their fields.</p>
+                </div>
+                <div class="col-md-4 text-center mb-4 Feature">
+                    <div class="feature-icon">
+                        <img src="assets/icons/consultant.png">
+                    </div>
+                    <h4>Hands-On Projects</h4>
+                    <p>Apply what you learn with real-world projects and build your portfolio.</p>
+                </div>
+                <div class="col-md-4 text-center mb-4 Feature">
+                    <div class="feature-icon">
+                      <img src="assets/icons/quality.png">
+                    </div>
+                    <h4>Recognized Certificates</h4>
+                    <p>Earn certificates that employers value to advance your career.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Announcements -->
+
+     <section class="container my-5" id="Announcements">
+        <h2 class="text-center mb-4"> Announcements</h2>
+       <div class="container-fluid announcement">
+        <div class="row">
+        <div class="announcement_text col-md-6 mb-3 me-0">
+            <p><b>🎉New Course Launch</b> – “The Introduction to Python course will start on 20th September. Enroll now to join!”</p>
+            <p><b>📝Assignment Reminder</b> – “Don’t forget to submit your Web Development Assignment 1 by 15th September, 11:59 PM.”</p>
+
+             <p><b>📢Free Workshop</b> – “Join our free Digital Marketing Workshop on 25th September at 5:00 PM. Limited seats available!”</p>
+
+           <p><b>📊Results Published</b> – “Results for the Business & Productivity quiz are now available in the Grades section.”</p>
+
+
+           </div>
+        <div class="announcement_img col-md-6 mb-3"data-aos="flip-up">
+            <img src="assets/images/pexels-lara-jameson-8899180.jpg">
+        </div> 
+        </div>
+         </div>
+    </section>
+
+
+    <!-- profile -->
+
+     <section class="container my-5" id="Profile">
+        <h2 class="text-center mb-4"> Profile</h2>
+
+        <div class="container">
+
+
+            <section class="container my-4">
+  <div class="card p-3">
+    <!-- Profile Header -->
+    <div class="text-center profile_img">
+      <img src="assets/images/pexels-merlin-11308990.jpg" class="rounded-circle mb-2">
+      <h5>Mahesh Mutkiri</h5>
+      <p class="text-muted">Student ID: 2025STU001</p>
+      <p>📧 mahesh.speedup@example.com</p>
+    </div>
+    <hr>
+
+    <!-- Courses -->
+    <h6>🎓 Courses Enrolled</h6>
+    <ul>
+      <li>Web Development </li>
+      <li>UI/UX Fundamentals</li>
+    </ul>
+
+    <!-- Progress -->
+    <h6>📊 Progress</h6>
+    <div class="progress mb-2">
+      <div class="progress-bar bg-danger" style="width: 80%;">80%</div>
+    </div>
+
+    <!-- Achievements -->
+    <h6>🏆 Achievements</h6>
+    <p>Completed “Web Development”</p>
+
+    <!-- Join Date -->
+    <p>📅 Joined On: 01 August 2025</p>
+
+    <!-- Buttons -->
+    <div class="d-flex gap-2">
+      <button class="btn btn-primary btn-sm">Edit Profile</button>
+      <button class="btn btn-secondary btn-sm">Change Password</button>
+      <button class="btn btn-danger btn-sm" onclick="logoutt()">Logout</button>
+    </div>
+  </div>
+</section>
+
+
+
+
+        </div>
+     </section>
+     
+
+<!-- Footer -->
+
+<footer class="bg-dark text-light pt-4 pb-2">
+  <div class="container">
+    <div class="row">
+      
+      <!-- About Section -->
+      <div class="col-md-4 mb-3">
+        <h5 class="text-uppercase">MindBridge</h5>
+        <p class="datails">
+          A simple Learning Management System where you can access courses, track progress, 
+          manage assignments, and grow your skills anytime, anywhere.
+        </p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-4 mb-3">
+        <h5 class="text-uppercase">Quick Links</h5>
+        <ul class="list-unstyled ">
+          <li><a href="#" class="text-light text-decoration-none">🏠 Home</a></li>
+          <li><a href="#Courses" class="text-light text-decoration-none">📚 Courses</a></li>
+          <li><a href="#features" class="text-light text-decoration-none">📝 Features</a></li>
+          <li><a href="#Announcements" class="text-light text-decoration-none">📢 Announcements</a></li>
+          <li><a href="#Profile" class="text-light text-decoration-none">👤 Profile</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Section -->
+      <div class="col-md-4 mb-3">
+        <h5 class="text-uppercase">Contact Us</h5>
+        <p class="small mb-1">📍 123 Learning Street, India</p>
+        <p class="small mb-1">📧 support@mindbridge.com</p>
+        <p class="small">📞 +91 98765 43210</p>
+
+        <!-- Social Media -->
+        <div>
+          <a href="#" class="text-light me-2 fs-5"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-light me-2 fs-5"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="text-light me-2 fs-5"><i class="bi bi-linkedin"></i></a>
+          <a href="#" class="text-light fs-5"><i class="bi bi-github"></i></a>
+        </div>
+      </div>
+
+    </div>
+
+    <hr class="bg-light">
+
+    <!-- Bottom Line -->
+    <div class="text-center small">
+      © 2025 MindBridge | All Rights Reserved
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap Icons CDN (Add in <head>) -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+ integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+  crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+  AOS.init();
+</script>
+ <script src="script.js"></script>
+</body>
+</html>

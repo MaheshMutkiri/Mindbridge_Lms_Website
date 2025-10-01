@@ -45,7 +45,7 @@ Mini-LMS-Project/
 ## 🛠️ Steps to Run Locally
 1. **Clone or Download** this repository.  
    ```bash
-   git clone https://github.com/yourusername/mini-lms.git
+   https://github.com/MaheshMutkiri/Mindbridge_Lms_Website
 
 Open the project folder in your editor (e.g., VS Code).
 
